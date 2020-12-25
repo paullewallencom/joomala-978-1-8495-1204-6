@@ -1,0 +1,34 @@
+/**
+* Parallax effect
+*/
+
+#parallax{
+    position: relative;
+}
+
+#parallax_bottom{
+    position: absolute;
+    z-index: 3001;
+    width: 980px;
+    height: 57px;
+    background-image: url('../images/parallax_3.png');
+    background-repeat: no-repeat;
+}
+
+#parallax_middle{
+    position: absolute;
+    z-index: 3002;
+    width: 980px;
+    height: 57px;
+    background-image: url('../images/parallax_2.png');
+    background-repeat: no-repeat;
+}
+
+#parallax_top{
+     position: absolute;
+    z-index: 3003;
+    width: 980px;
+    height: 57px;
+    background-image: url('../images/parallax_1.png');
+    background-repeat: no-repeat;
+}

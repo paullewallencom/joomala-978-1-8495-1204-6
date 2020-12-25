@@ -1,0 +1,37 @@
+.menu{
+	margin-top: -3px;
+	margin-left: -15px;	
+}
+
+.menu li{
+	background-color: #938F89;
+	border: 1px solid	#211F1B;
+}
+
+.menu li a{
+	border-top: 1px solid #DEDEDE;
+	border-left: 1px solid #DEDEDE;	
+}
+
+
+.menu li ul li{
+	background-color: #938F89;
+	border: 1px solid	#211F1B;
+}
+
+.menu ul li li a{
+	border-top: 1px solid #DEDEDE;
+	border-left: 1px solid #DEDEDE;	
+}
+
+#current a{
+	background-color: #9A0000;
+	color: #ffffff;	
+	font-weight: bold;
+	border-top: 1px solid #D70000;
+	border-left: 1px solid #D70000;
+}
+
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#000000;
+}

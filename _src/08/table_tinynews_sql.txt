@@ -1,0 +1,5 @@
+ CREATE TABLE `jos_tinynews` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`title` VARCHAR( 255 ) NOT NULL ,
+`text` TEXT NOT NULL
+)

@@ -1,0 +1,26 @@
+<br/><br/>
+<div class="coda_bubble">
+    <p class="info">Demo site created for the Joomla! javascript jQuery Packt book <span class="trigger">+info</span></p>
+    <div class="bubble_html">
+        Author: Jose Argudo Blanco.<br/>
+        Title: Joomla! Javascript jQuery.<br/>
+        Theme: Joomla!, jQuery.<br/>
+        Publisher: Packt Publishing.<br/>
+        Contact: jose@joseargudo.com
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+          opts = {
+           distances : [20],
+           leftShifts : [280],
+           bubbleTimes : [500],
+           hideDelays : [0],
+           bubbleWidths : [300],
+           bubbleImagesPath : "<?php echo $this->baseurl ?>/templates/jj15/css/bubble_images/skins/classic",
+           msieFix : true,
+           msiePop : true
+        };
+        $('.coda_bubble').codaBubble(opts);
+    });
+</script>

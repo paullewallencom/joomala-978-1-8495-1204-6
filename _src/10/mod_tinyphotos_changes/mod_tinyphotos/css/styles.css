@@ -1,0 +1,29 @@
+#tinyphotos ul li{
+	float: left;
+	margin-right: 10px;	
+}
+
+.jcarousel-skin-tango .jcarousel-container {
+    -moz-border-radius: 0;
+    background: transparent;
+    border: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 835px;
+    padding: 10px 40px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  835px;
+    height: 70px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 150px;
+    height: 70px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal, .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    top: 32px;
+}

@@ -1,0 +1,19 @@
+$custom  = '<script type="text/javascript">' ."\n";
+$custom .= 'if (typeof jQuery == "undefined") {' ."\n";
+$custom .= 'var script = document.createElement("script");' ."\n";
+$custom .= 'script.setAttribute("type","text/javascript");' ."\n";
+$custom .= 'script.setAttribute("src", "/modules/mod_ajaxsearch/js/jquery-1.3.2.min.js");' ."\n";
+$custom .= 'document.getElementsByTagName("head")[0].appendChild(script);' ."\n";
+$custom .= 'var script = document.createElement("script");' ."\n";
+$custom .= 'script.setAttribute("type","text/javascript");' ."\n";
+$custom .= 'script.setAttribute("src", "/modules/mod_ajaxsearch/js/script.js");' ."\n";
+$custom .= 'document.getElementsByTagName("head")[0].appendChild(script);' ."\n";
+$custom .= '}else{ ' ."\n";
+$custom .= 'var script = document.createElement("script");' ."\n";
+$custom .= 'script.setAttribute("type","text/javascript");' ."\n";
+$custom .= 'script.setAttribute("src", "/modules/mod_ajaxsearch/js/script.js");' ."\n";
+$custom .= 'document.getElementsByTagName("head")[0].appendChild(script);' ."\n";
+$custom .= '}' ."\n";
+$custom .= '</script>' ."\n";
+ 
+$document->addCustomTag($custom);		

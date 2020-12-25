@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>JJ15</name>
+	<version>1.0.0</version>
+	<creationDate>03/26/12</creationDate>
+	<author>Jose Argudo Blanco</author>
+	<authorEmail>jose@joseargudo.com</authorEmail>
+	<authorUrl>http://www.joseargudo.com</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL version 2</license>
+	<description>Template made for Packt book Joomla! and Jquery</description>
+<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<images>
+		<filename>images/back_component.gif</filename>
+		<filename>images/back_component_bottom.gif</filename>
+		<filename>images/back_component_top.gif</filename>
+		<filename>images/back_module.gif</filename>
+		<filename>images/back_module_1.gif</filename>
+		<filename>images/back_module_2.gif</filename>
+		<filename>images/back_module_3.gif</filename>
+		<filename>images/header_image.gif</filename>
+		<filename>images/index.html</filename>
+		<filename>images/menu_background.jpg</filename>
+		<filename>images/menu_background_2.gif</filename>
+		<filename>images/search.gif</filename>
+		<filename>images/web_background.gif</filename>
+	</images>
+	<css>
+		<filename>css/reset.css</filename>
+		<filename>css/styles.css</filename>
+		<filename>css/index.html</filename>
+	</css>
+	<positions>
+		<position>module_1</position>
+		<position>module_2</position>
+		<position>module_3</position>
+		<position>module_4</position>
+		<position>module_5</position>
+		<position>module_6</position>
+		<position>module_7</position>
+		<position>module_8</position>
+		<position>module_9</position>
+		<position>menu</position>
+		<position>search</position>
+		<position>adzone</position>
+	</positions>
+
+	
+</install>
